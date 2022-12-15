@@ -170,8 +170,10 @@
             <name>Central Repository</name>
             <url>https://repo.maven.apache.org/maven2</url>
         </repository>
-    </repositories>
-    <pluginRepositories>
+
+  </repositories>
+	
+	 <pluginRepositories>
         <pluginRepository>
             <releases>
                 <updatePolicy>never</updatePolicy>
@@ -183,9 +185,7 @@
             <name>Central Repository</name>
             <url>https://repo.maven.apache.org/maven2</url>
         </pluginRepository>
-		
-		
-		
-  </repositories>
+	 </pluginRepositories>
+
 </project>
 
