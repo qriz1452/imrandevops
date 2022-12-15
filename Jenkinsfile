@@ -10,7 +10,7 @@ pipeline {
 		NEXUS_PASS = 'admin'
 		RELEASE_REPO = 'vpro-artifact-host'
 		CENTRAL_REPO = 'vppr-artifact-dependencies'
-		NEXUSIP = '172.31.13.211'
+		NEXUSIP = '35.170.198.109'
 		NEXUSPORT = '8081'
 		NEXUS_GRP_REPO = 'vpro-artifact-group'
 		NEXUS_LOGIN = 'nexuslogin'
