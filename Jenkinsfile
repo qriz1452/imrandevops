@@ -4,7 +4,7 @@ pipeline {
 		maven "MAVEN3"
 		jdk "OracleJDK8"
 	}
-	encironment {
+	environment {
 		SNAP_REPO = 'vpro-artifact-snapshots'
 		NEXUS_USER = 'admin'
 		NEXUS_PASS = 'admin'
