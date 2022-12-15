@@ -12,7 +12,7 @@ pipeline {
 		CENTRAL_REPO = 'vppr-artifact-dependencies'
 		NEXUSIP = '172.31.13.211'
 		NEXUSPORT = '8081'
-		NEXUS_GRP_REPO = 'vpr-artifact-group'
+		NEXUS_GRP_REPO = 'vpro-artifact-group'
 		NEXUS_LOGIN = 'nexuslogin'
 		SONARSERVER = 'sonarserver'
    	        SONARSCANNER = 'sonarscanner'
