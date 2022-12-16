@@ -89,5 +89,14 @@ pipeline {
 			}
 		}
 	}
+	post{
+		always {
+			echo 'slack notification'
+			slackSend channel : '#cicd-1',
+				color : COLOR_MAP[currentBuild.currentResult],
+					message : "*${currentBuild.currentResult}:* Job ${env.JOB_NAME} build ${env.BUILD_NUMBER} \n More Infor at : ${env.BUILD_URL}"
+		
+		}
+	}
 
 }
