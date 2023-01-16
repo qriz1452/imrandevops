@@ -11,14 +11,14 @@ pipeline {
 		jdk "OracleJDK8"
 	}
 	environment {
-		SNAP_REPO = 'vpro-artifact-snapshots'
+		SNAP_REPO = 'vpro-snapshot'
 		NEXUS_USER = 'admin'
 		NEXUS_PASS = 'admin'
-		RELEASE_REPO = 'vpro-artifact-host'
-		CENTRAL_REPO = 'vppr-artifact-dependencies'
-		NEXUSIP = '172.31.6.94'
+		RELEASE_REPO = 'vpro-release'
+		CENTRAL_REPO = 'vpro-central'
+		NEXUSIP = '172.31.82.184'
 		NEXUSPORT = '8081'
-		NEXUS_GRP_REPO = 'vpro-artifact-group'
+		NEXUS_GRP_REPO = 'vpro-maven-group'
 		NEXUS_LOGIN = 'nexuslogin'
 		SONARSERVER = 'sonarserver'
    	        SONARSCANNER = 'sonarscanner'
