@@ -11,10 +11,10 @@ pipeline {
 		jdk "OracleJDK8"
 	}
 	environment {
-		SNAP_REPO = 'vpro-snapshot'
+		SNAP_REPO = 'vprofile-snapshot'
 		NEXUS_USER = 'admin'
 		NEXUS_PASS = 'admin@123'
-		RELEASE_REPO = 'vpro-release'
+		RELEASE_REPO = 'vprofile-release'
 		CENTRAL_REPO = 'vpro-central'
 		NEXUSIP = '172.31.82.184'
 		NEXUSPORT = '8081'
