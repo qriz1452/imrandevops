@@ -13,7 +13,7 @@ pipeline {
 	environment {
 		SNAP_REPO = 'vpro-snapshot'
 		NEXUS_USER = 'admin'
-		NEXUS_PASS = 'admin'
+		NEXUS_PASS = 'admin@123'
 		RELEASE_REPO = 'vpro-release'
 		CENTRAL_REPO = 'vpro-central'
 		NEXUSIP = '172.31.82.184'
