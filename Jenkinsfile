@@ -5,7 +5,8 @@ def COLOR_MAP = [
 
 pipeline {
 	agent any
-@@ -10,98 +10,99 @@ pipeline {
+	tools	{
+		maven "MAVEN3"
 		jdk "OracleJDK8"
 	}
 	environment {
